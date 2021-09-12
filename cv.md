@@ -27,6 +27,7 @@ function highAndLow(numbers){
 }
 ```
 
+
 ## Work experience:
 no experience
 
