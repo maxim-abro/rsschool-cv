@@ -3,11 +3,11 @@
 ## My contact info:
 
 * Address: Russian Federation, Moskovskays Oblast, Domodedovo city, 
-Severnaya street
-* Phone: +7 (999) 851-48-87
-* E-mail: maxim.abro@yandex.ru
-* GitHub: [schwarzer88](https://github.com/schwarzer88)
-* Telegram: @maxim_abro
+Severnaya street;
+* Phone: +7 (999) 851-48-87;
+* E-mail: maxim.abro@yandex.ru;
+* GitHub: [schwarzer88](https://github.com/schwarzer88);
+* Telegram: @maxim_abro;
 
 ## About Me
 
