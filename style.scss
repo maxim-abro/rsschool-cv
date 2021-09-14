@@ -45,7 +45,7 @@ hr {
   display: flex;
   width: 70%;
   &-logo {
-    width: 30%;
+    width: 99%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,10 +53,12 @@ hr {
       font-family: 'Prompt', sans-serif;
       font-weight: 500;
       margin: 0;
+      align-self: flex-start;
     }
     h3 {
       margin: 0;
       font-family: 'Prompt', sans-serif;
+      align-self: flex-start;
     }
   }
   .right {
@@ -136,4 +138,26 @@ hr {
   justify-content: space-between;
   display: flex;
   align-items: center;
+}
+
+@media screen and (max-width: 1170px) {
+  .footer {
+    &-github {
+      a {
+        img {
+          height: 100px;
+        }
+      }
+    }
+    &-rs-school {
+      a {
+        img {
+          height: 100px;
+        }
+      }
+    }
+    &-copy {
+      font-size: 1.2em;
+    }
+  }
 }
