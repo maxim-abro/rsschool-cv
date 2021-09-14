@@ -1,1 +1,1 @@
-[gh-pages](https://schwarzer88.github.io/rsschool-cv/cv)
+[gh-pages](https://schwarzer88.github.io/rsschool-cv)
