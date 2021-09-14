@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #959595;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article {
+  margin: 0 0 100px 0;
+}
+
+hr {
+  border: none;
+  border-top: 3px solid #000;
+}
+
+.link {
+  color: #f3cb37;
+  text-decoration: none;
+  background-image: linear-gradient(#000, #000);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+.link:hover {
+  background-size: 100% 2px;
+}
+
+.code {
+  background: #e2e2e2;
+}
+
+.laguanges .title {
+  font-weight: 700;
+}
+
+.head {
+  display: flex;
+  width: 70%;
+}
+.head-logo {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.head-logo h1 {
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  margin: 0;
+}
+.head-logo h3 {
+  margin: 0;
+  font-family: "Prompt", sans-serif;
+}
+.head .right {
+  width: 70%;
+}
+
+.section-body {
+  margin: 20px 0;
+}
+
+.container {
+  width: 70%;
+  -webkit-box-shadow: 6px 7px 2px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 6px 7px 2px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 6px 7px 2px 0px rgba(34, 60, 80, 0.2);
+}
+
+.main {
+  display: flex;
+}
+.main .aside {
+  background: #f3cb37;
+  width: 30%;
+  padding-left: 30px;
+}
+.main .aside .contacts-title {
+  margin: 30px 0 0 0;
+}
+.main .aside .contacts ul {
+  margin-left: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.main .aside .contacts ul li {
+  margin: 3px 0;
+}
+.main .aside .contacts ul li .contact-link {
+  color: #000;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+.main .aside .contacts ul li .contact-link:hover {
+  background-size: 100% 2px;
+}
+.main .aside .skills ul {
+  margin-left: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.main .aside .skills ul li {
+  margin: 3px 0;
+}
+.main .aside .skills ul li .list {
+  display: flex;
+  align-items: center;
+}
+.main .aside .skills ul li .list img {
+  margin-right: 10px;
+}
+.main .section {
+  width: 70%;
+  background: #fff;
+  padding: 10px 20px;
+}
+
+.footer {
+  background: #f3cb37;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
