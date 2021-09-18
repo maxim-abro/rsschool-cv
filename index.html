@@ -5,151 +5,195 @@
   <meta name="viewport"
         content="width=device-width,initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 <body>
-<header class="head">
-  <div class="head-logo">
-    <h1>Maxim Abrosimov</h1>
-    <h3>Frontend delevoper</h3>
-  </div>
-  <div class="right"></div>
-</header>
-  <div class="container">
-    <div class="main">
-      <aside class="aside">
-        <article class="contacts">
-          <h4 class="contacts-title">Contacts</h4>
-          <hr>
-          <ul>
-            <li>
-              <a class="contact-link" href="tel:+79998514887">+7(999)851-48-87</a>
-            </li>
-            <li>
-              <a class="contact-link" href="mailto:maxim.abro@yandex.ru">maxim.abro@yandex.ru</a>
-            </li>
-            <li>
-              <a class="contact-link" href="https://github.com/schwarzer88">GitHub</a>
-            </li>
-          </ul>
-        </article>
-        <article class="skills">
-          <h4 class="skills-title">Skills</h4>
-          <hr>
-          <ul>
-            <li>
-              <div class="list">
-                <img src="./img/skills/html-5-logotype.svg" alt="html" height="20">
-                <span>HTML</span>
-              </div>
-            </li>
-            <li>
-            <div class="list">
-              <img src="./img/skills/css-3.svg" alt="css" height="20">
-              <span>CSS, SCSS</span>
-            </div>
-            </li>
-            <li>
-             <div class="list">
-               <img src="./img/skills/brand_javascript_icon_157913.svg" alt="JS" height="20">
-               <span>JavaScript</span>
-             </div>
-            </li>
-            <li>
-              <div class="list">
-                <img src="./img/skills/git_icon_137550.svg" alt="git" height="20">
-                <span>git</span>
-              </div>
-            </li>
-            <li>
-             <div class="list">
-               <img src="./img/skills/webpack_icon_131877.svg" alt="webpack" height="20">
-               <span>webpack</span>
-             </div>
-            </li>
-            <li>
-              <div class="list">
-                <img src="./img/skills/file_type_vue_icon_130078.svg" alt="vue" height="20">
-                <span>vue.js</span>
-              </div>
-            </li>
-            <li>
-             <div class="list">
-               <img src="./img/skills/file_type_nuxt_icon_130293.svg" alt="nuxt" height="20">
-               <span>nuxt</span>
-             </div>
-            </li>
-          </ul>
-        </article>
-      </aside>
-     <section class="section">
-       <h3>about me</h3>
-       <article class="about-me">
-<!--          <h3 class="section-title">-->
-<!--            About me-->
-<!--          </h3>-->
-         <hr>
-         <div class="section-body">
-           Hello. My name is Maxim Abrosimov. I am 25 years old and i burn in Moscow. When i was in school, i studied php and wordPress. I entred Moscow Technical College after school and i now computer technician. In 2020, i started learning javaScript.
-         </div>
-         <div class="section-body laguanges">
-           <h5 class="title">
-             Laguanges:
-           </h5>
-           <ul>
-             <li>Russian - native</li>
-             <li>English - A2</li>
-           </ul>
-         </div>
-         <div class="section-body couses">
-           <h5 class="title">
-             Couses:
-           </h5>
-           <ul>
-             <li>
-               <a class="link" href="https://glo.academy/">Glo-academy</a>
-             </li>
-           </ul>
-         </div>
-       </article>
-       <article class="code-example">
-         <h3 class="section-title">Code example</h3>
-         <hr>
-         <div class="section-body code">
-           <code>
-             function highAndLow(numbers){
-             <br>
-             &nbsp;numbers = numbers.split(' ').map(Number);
-             <br>
-             &nbsp;return Math.max.apply(0, numbers) + ' ' + Math.min.apply(0, numbers);
-             <br>
-             }
-           </code>
-         </div>
-       </article>
-     </section>
+  <header class="header">
+    <div class="header-logo">
+      <h1>Maxim Abrosimov <br> Frontend developer</h1>
     </div>
-    <footer class="footer">
-      <div class="footer-github">
-        <a href="https://github.com/schwarzer88">
-          <img src="./img/skills/github-logo_icon-icons.com_73546.svg" alt="github" height="150">
-        </a>
-      </div>
+    <div class="burger-menu">
+      <button class="close-btn">&times;</button>
+      <ul>
+        <li>
+          <a href="#" class="link active nav-item resume-btn-brg">resume</a>
+        </li>
+        <li>
+          <a href="#" class="link nav-item portfolio-btn-brg">portfolio</a>
+        </li>
+        <li>
+          <a href="#about-me" class="link nav-item-brg">about me</a>
+        </li>
+        <li>
+          <a href="#code-example" class="link nav-item-brg">code example</a>
+        </li>
+      </ul>
+    </div>
+    <nav class="header-nav">
+      <button class="burger-button">
+        &equiv;
+      </button>
+      <ul>
+        <li>
+          <a href="#" class="link active nav-item resume-btn">resume</a>
+        </li>
+        <li>
+          <a href="#" class="link nav-item portfolio-btn">portfolio</a>
+        </li>
+        <li>
+          <a href="#about-me" class="link nav-item">about me</a>
+        </li>
+        <li>
+          <a href="#code-example" class="link nav-item">code example</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="resume">
+    <main class="main-resume">
+      <article class="about-me" id="about-me">
+        <h3 class="article-title">
+          About me
+        </h3>
+        <hr>
+        <div class="article-text">
+          Hello. My name is Maxim Abrosimov. I am 25 years old and i burn in Moscow. When i was in school, i studied php and wordPress. I entred Moscow Technical College after school and i now computer technician. In 2020, i started learning javaScript.
 
-      <h2 class="footer-copy">
-        created by maxim abrosimov
-      </h2>
+        </div>
+      </article>
 
-      <div class="footer-rs-school">
-        <a href="https://rs.school/js/">
-          <img src="./img/skills/rs_school_js.svg" alt="rs school" height="150">
-        </a>
-      </div>
-    </footer>
+      <article class="laguanges">
+        <h3 class="article-title">
+          Languages:
+        </h3>
+        <div class="article-text">
+          <ul>
+            <li>Russian - native</li>
+            <li>English - A2</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="courses">
+        <h3 class="article-title">
+          Courses:
+        </h3>
+        <div class="article-text">
+          <ul>
+            <li>
+              <a href="https://glo.academy/" class="link">Glo-academy</a>
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="example" id="code-example">
+        <h3 class="article-title">
+          Code-example
+        </h3>
+        <pre>
+          <code class="article-text javascript" data-language="javascript">
+            <span class="let">let</span> highAndLow = (numbers) => {
+                numbers = numbers.<span class="second">split</span>(<span class="text">' '</span>).<span class="second">map</span>(<span class="foo">number</span>);
+                <span class="let">return</span> <span class="foo">Math</span>.<span class="second">max</span>.<span class="second">apply</span>(<span class="numbers">0</span>, numbers) + <span class="text">' '</span> + <span class="foo">Math</span>.<span class="second">min</span>.<span class="second">apply</span>(<span class="numbers">0</span>, numbers);
+            }
+        </code>
+        </pre>
+      </article>
+    </main>
+    <aside class="aside">
+      <article class="contacts">
+        <h3 class="article-title">Contacts:</h3>
+        <div class="article-text">
+          <ul>
+            <li>
+              <a href="tel:+79998514887" class="link">+7(999)851-48-87</a>
+            </li>
+            <li>
+              <a href="mailto:maxim.abro@yandex.ru" class="link">maxim.abro@yandex.ru</a>
+            </li>
+            <li>
+              <a href="https://vk.com/maximabro" class="link">vk</a>
+            </li>
+            <li>
+              <a href="https://t.me/maxim_abro" class="link">telegram</a>
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="skills">
+        <h3 class="article-title">
+          Skills:
+        </h3>
+        <div class="article-text">
+          <ul>
+            <li><img src="./img/skills/html-5-logotype.svg" alt="html" height="20">HTML</li>
+            <li><img src="./img/skills/css-3.svg" alt="css" height="20">CSS</li>
+            <li><img src="./img/skills/brand_javascript_icon_157913.svg" alt="JS" height="20">JavaScript</li>
+            <li><img src="./img/skills/git_icon_137550.svg" alt="git">git</li>
+            <li><img src="./img/skills/webpack_icon_131877.svg" alt="webpack" height="20">webpack</li>
+            <li><img src="./img/skills/file_type_vue_icon_130078.svg" alt="vue" height="20">vue.js</li>
+            <li><img src="./img/skills/file_type_nuxt_icon_130293.svg" alt="nuxt" height="20">nuxt.js</li>
+          </ul>
+        </div>
+      </article>
+    </aside>
   </div>
+
+  <div class="portfolio">
+    <main class="main-portfolio">
+      <h2>portfolio</h2>
+      <article class="cards">
+        <div class="card-item">
+          <h4 class="card-title">Site fitness club</h4>
+          <img src="./img/jobs/fitness.png" alt="fitness" width="100%">
+          <div class="card-type">technologies: HTML, CSS, JS, webpack</div>
+          <a href="https://github.com/schwarzer88/fitness-club/tree/prod" class="to-github" target="_blank"><img src="./img/skills/github-logo_icon-icons.com_73546.svg" alt="github" height="50"></a>
+        </div>
+
+        <div class="card-item">
+          <h4 class="card-title">Landing</h4>
+          <img src="./img/jobs/landing1.png" alt="landing">
+          <div class="card-type">technologies: HTML, CSS, JS</div>
+          <a href="https://github.com/schwarzer88/glo-project/tree/final" class="to-github" target="_blank"><img src="./img/skills/github-logo_icon-icons.com_73546.svg" alt="github" height="50"></a>
+        </div>
+
+        <div class="card-item">
+          <h4 class="card-title">Domodedovo blog</h4>
+          <img src="./img/jobs/dmd-blog.png" alt="dmd-nuxt">
+          <div class="card-type">technologies: HTML, CSS, JS, vue.js, vuex, vue-router, nuxt.js</div>
+          <a href="https://github.com/schwarzer88/dmd-nuxt/tree/master" class="to-github" target="_blank"><img src="./img/skills/github-logo_icon-icons.com_73546.svg" alt="github" height="50"></a>
+        </div>
+
+        <div class="card-item">
+          <h4 class="card-title">SpaceX landing</h4>
+          <img src="./img/jobs/spacex.jpg" alt="spacex">
+          <div class="card-type">technologies: HTML, CSS, JS, react, react-router</div>
+          <a href="https://github.com/schwarzer88/fitness-club/tree/prod" class="to-github" target="_blank"><img src="./img/skills/github-logo_icon-icons.com_73546.svg" alt="github" height="50"></a>
+        </div>
+      </article>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <div class="github">
+      <a href="https://github.com/schwarzer88">
+        <img src="./img/skills/github-logo_icon-icons.com_73546.svg" alt="github" height="150">
+      </a>
+    </div>
+    <h2 class="copy">created by Maxim Abrosimov</h2>
+    <div class="rs-school">
+      <a href="https://rs.school/js/">
+        <img src="./img/skills/rs_school_js.svg" alt="rs school" height="150">
+      </a>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
 </body>
 </html>
