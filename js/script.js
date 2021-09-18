@@ -1,12 +1,11 @@
-const portfolio = document.querySelector('.portfolio')
-const resume = document.querySelector('.resume')
-const resumeBtn = document.querySelector('.resume-btn')
-const portfolioBtn = document.querySelector('.portfolio-btn')
-const burgerMenu = document.querySelector('.burger-menu')
-const body = document.querySelector('body')
-const resumeBrg = document.querySelector('.resume-btn-brg')
-const portfolioBrg = document.querySelector('.portfolio-btn-brg')
-
+const portfolio = document.querySelector('.portfolio'),
+    resume = document.querySelector('.resume'),
+    resumeBtn = document.querySelector('.resume-btn'),
+    portfolioBtn = document.querySelector('.portfolio-btn'),
+    burgerMenu = document.querySelector('.burger-menu'),
+    body = document.querySelector('body'),
+    resumeBrg = document.querySelector('.resume-btn-brg'),
+    portfolioBrg = document.querySelector('.portfolio-btn-brg');
 
 const eventListeners = () => {
     body.addEventListener('click', (e)=> {
